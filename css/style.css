@@ -150,7 +150,7 @@ h6 {
 }
 
 /* Mobile Menu */
-.mobile-nav-toggle {
+.mobile-nav-toggle { 
   position: fixed;
   right: 15px;
   top: 15px;
@@ -170,6 +170,15 @@ h6 {
   border-radius: 50px;
   cursor: pointer;
 }
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
 
 /* Resolução Mobile */
 
