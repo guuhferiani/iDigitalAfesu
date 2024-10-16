@@ -206,3 +206,41 @@ h6 {
   background-size: cover;
 }
 
+#hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.7);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+#hero .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 56px;
+  color: #f4f4f4;
+ /* background: Opcional */
+  /* padding: 10px ; */
+  font-family: "Poppins", sans-serif ; /* Opcional */
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
